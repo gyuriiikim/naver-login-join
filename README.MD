@@ -15,3 +15,5 @@
 </ul>
 <hr>
 <h2>규리</h2>
+<p><strong>join1제작중</strong></p>
+<p></p>
