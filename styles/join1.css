@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* -------------------------------------------------------------------------- 전체 */
 .wrap {}
 /* --------------------------------------------------------------------------- 언어 */
@@ -15,4 +16,23 @@
 .container #joinfrm fieldset p {}
 .container #joinfrm fieldset p label {}
 .container #joinfrm fieldset p label input[name=agree] {}
+=======
+/* -------------------------------------------------------------------------- 전체 */
+.wrap {}
+/* --------------------------------------------------------------------------- 언어 */
+.wrap .lang {}
+.wrap .lang select {}
+.wrap .lang select optgroup {}
+/* --------------------------------------------------------------------------- 로고 */
+.wrap .h1 {}
+.wrap .h1 a {}
+.wrap .h1 a img {}
+/* --------------------------------------------------------------------------- 본문 */
+.container {}
+.container #joinfrm {}
+.container #joinfrm fieldset {}
+.container #joinfrm fieldset p {}
+.container #joinfrm fieldset p label {}
+.container #joinfrm fieldset p label input[name=agree] {}
+>>>>>>> 1e7a22982d4207a31ea6b28ce421f723aa5f4528
 .container #joinfrm fieldset dl dt{}
