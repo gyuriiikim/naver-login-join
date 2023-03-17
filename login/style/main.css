@@ -1,0 +1,20 @@
+body {width: 920px;  margin:0 auto; background-color: rgba(0, 0, 0, 0.048);}
+#lang {float:right; margin-top: 20px;}
+#logo {clear:right; width:920px; height: 200px; position:relative;}
+#logo a img {width:250px; height: 50%; position:absolute; left:37%; top:40%;}
+#ID {
+    width:920px; height: 250px;
+    display: flex; flex-direction:row; wrap; justify-content: center;}
+#ID li {}
+#ID li #id {width: 400px; height:60px; margin-bottom:10px;}
+#ID li #pw {width: 400px; height:60px; margin-bottom:10px;}
+#ID li #login {width :400px; height:60px; background-color:green; color:white; border-color: green;}
+#option {
+    list-style-type: none; width: 920px; height:50px; 
+    }
+#option ul {display: flex; justify-content: space-between; flex-flow:nowrap;}
+#option ul em {font-weight: 400; color:green;}
+#option ul p {width:70%;}
+#bottom_option ul {display: flex; justify-content: center; padding:10px; }
+#info ul {display: flex; justify-content: center; padding-top:50px; }
+footer p {text-align: center;padding-top:10px; }
