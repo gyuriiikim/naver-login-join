@@ -1,36 +1,6 @@
-/* body {background-color: #f5f6f7; }
-.title {display:flex; flex-flow:row nowrap; justify-content: center;}
-.title h1 {}
-.title h1 a {}
-.wrap .title h1 a img {text-align:center;}
-.wrap {
-    width:460px; margin:0 auto; 
-}
-.container #join {}
-.container #join fieldset {}
-.container #join fieldset dl {}
-.container #join fieldset dl dt {font-weight: 700;}
-.wrap .container form#join fieldset dl dd {
-    font-size:0.0875rem; font-weight: 700; background-color:#fff;
-    letter-spacing:-0.03em; padding:10px 0; margin-bottom:10px; 
-    border:1px solid #eee; height:50px;
-}
-.wrap .container form#join fieldset dl dd input {
-    width:75%; border:none; padding:3px;
-}
-.wrap .container form#join fieldset dl .born {background-color: aqua;
-    display:flex; flex-flow:row no wrap;
-    justify-content: space-between; width:100%;
-}
-.wrap .container form#join fieldset dl .born:first-child {
-    width:150px; 
-}
-.wrap .container form#join fieldset dl .born select {
-    width:150px;
-} */
 body {background-color:#f5f6f7; }
 .wrap {
-    width:768px; margin:0 auto; background-color: pink;
+    width:768px; margin:0 auto;
     display:flex; flex-flow:column nowrap;
 }
 .wrap .title {width:768px; margin:0 auto; text-align:center;}
@@ -38,24 +8,23 @@ body {background-color:#f5f6f7; }
 .wrap .title h1 a {}
 .wrap .title h1 a img {}
 .wrap .title h1 a img {}
-.wrap .container { margin:0 auto;}
+.wrap .container {margin:0 auto;}
 .wrap .container form#join {}
 .wrap .container form#join fieldset {}
 .wrap .container form#join fieldset dl {}
 .wrap .container form#join fieldset dl dt {
-    margin:10px 0; font-weight:700; font-size:0.875rem; letter-spacing:-0.03em;
+    margin:5px 0; font-weight:700; font-size:0.875rem; letter-spacing:-0.03em; padding:5px 0;
 }
 .wrap .container form#join fieldset dl dd {
-    width:460px; height:50px; background-color: #fff;
-    padding:10px 0;
+    width:460px;  background-color: #fff; height:50px;
 }
-.wrap .container form#join fieldset dl dd span {}
+.wrap .container form#join fieldset dl dd span {margin-left:5px;}
 .wrap .container form#join fieldset dl dd input {
-    height:31px; width:100%; border:none;
+    height:50px; width:100%; border:none; 
+
 }
 .wrap .container form#join fieldset dl dd:nth-child(2) input {width:75%;}
 .wrap .container form#join fieldset dl .born {
-    background-color: aqua; 
     display:flex; flex-flow:row nowrap;
     justify-content:space-between; padding:0;
 }
@@ -65,3 +34,41 @@ body {background-color:#f5f6f7; }
 .wrap .container form#join fieldset dl .born select {width:150px; border:0;}
 .wrap .container form#join fieldset dl .gender select {width:460px; height:50px; border:0;}
 .wrap .container form#join fieldset dl .gender {padding:0;}
+.wrap .container form#join fieldset dl .email span {font-size:0.875rem;}
+.wrap .container form#join fieldset dl .number select {width:460px; height:50px; border:0; margin-bottom:10px;}
+.wrap .container form#join fieldset dl .number {margin:10px 0;}
+.wrap .container form#join fieldset dl .number dd {display:flex; flex-flow:row nowrap;}
+#number_get {
+    width: 25%;
+    height: 50px;
+    font-size: 0.75em;
+    float: right;
+    background-color: #03c75a;
+    color: #fff;
+}
+.wrap .container form#join fieldset dl .num_1 input {width:72%;}
+.wrap .container form#join fieldset dl .num_1 {background: none; margin-bottom:10px;}
+.wrap .container form#join fieldset dl .num_2 input {background-color:#eee; border:1px solid #aaa;}
+#join_btn {
+    width:460px; height:70px; background-color: #03c75a;
+    color: #fff; font-size: 1.2em; font-weight:700;
+    margin-top:10px; 
+}
+footer {
+    width:460px; text-align:center; margin:40px 0;
+    
+}
+footer a {
+    font-size: 0.75em; 
+}
+footer a::before {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 8px;
+    background-color: #aaa;
+    margin: 0 5px;
+}
+.wrap .container form#join footer a:first-child::before {background:none;}
+address {font-size: 0.75em; margin-top:10px;}
+address span {font-size: 0.75em;}
